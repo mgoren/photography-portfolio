@@ -1,0 +1,13 @@
+<div class="intro-page">
+  <div class="row">
+    {{#each gallery in model}}
+      <figure class="thumb-med">
+        {{#link-to 'gallery' gallery.id}}
+          <img {{bind-attr src=gallery.thumb}}>
+          <figcaption>{{gallery.title}}</figcaption>
+        {{/link-to}}
+      </figure>
+    {{/each}}
+  </div>
+
+</div>

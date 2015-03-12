@@ -1,0 +1,11 @@
+<div class="gallery">
+
+  <div class="row">
+    {{#each photo in model.photos}}
+      <figure class="thumb-sm">
+        <a class="fancybox" rel="group" {{bind-attr href=photo.full}}><img {{bind-attr src=photo.thumb}}></a>
+      </figure>
+    {{/each}}
+  </div>
+
+</div>

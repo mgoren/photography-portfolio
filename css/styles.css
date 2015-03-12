@@ -1,0 +1,149 @@
+body {
+  background-color: white;
+}
+
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/*----------------- HEADER ------------------*/
+
+header .jumbotron {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 10px 200px 40px 200px !important;
+  margin-bottom: 0;
+}
+
+header h1 {
+  display: inline-block;
+  font-family: 'Josefin Slab', serif;
+  font-size: 30px !important;
+  font-weight: bold;
+  color: #d46b58 !important;
+}
+
+header h1 a {
+  color: inherit;
+}
+
+header h1 a:hover, header h1 a:focus {
+  text-decoration: none;
+  color: inherit;
+}
+
+header nav {
+  margin-top: 15px;
+}
+
+header .myMenu li p {
+  cursor: pointer;
+  color: #d3d3d3;
+  font-size: 12px;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 22px 17px 12px 17px;
+  text-decoration: none;
+}
+
+header .myMenu li.active p {
+  color: #d46b58;
+}
+
+header .myMenu li p:hover {
+  color: #c00;
+}
+
+header .nav>li>p:hover, .nav>li>p:focus {
+    background-color: transparent;
+}
+
+header .navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #cccccc;
+  border-radius: 1px;
+}
+
+/*----------------- MAIN BODY -----------------*/
+
+section {
+  background-color: black;
+  color: white;
+  min-height: 460px;
+}
+
+/*----------------- HOME GALLERIES PAGE -----------------*/
+
+.intro-page {
+  padding: 100px;
+  text-align: center;
+}
+
+.thumb-med {
+  display: inline-table;
+  margin: 20px 5px 10px 5px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.thumb-med img {
+  width: 275px;
+  border: 1px solid white;
+}
+
+.thumb-med figcaption {
+  color: white;
+  margin-top: 20px;
+}
+
+.thumb-med figcaption:hover {
+  text-decoration: underline;
+}
+
+/*----------------- GALLERY -----------------*/
+
+.gallery {
+  max-width: 900px;
+  text-align: center;
+  margin: auto;
+  padding: 50px 0;
+}
+
+.thumb-sm {
+  display: inline-table;
+  cursor: pointer;
+  margin: 2px 0px;
+}
+
+
+
+
+/*------------------- CONTACT -------------------*/
+#about {
+  padding: 20px;
+}
+
+
+/*------------------- FOOTER -------------------*/
+footer {
+  background-color: white;
+  height: 250px;
+}
+
+
+
+/*------------------- CONDENSE HEADER FOR SMALLER SCREENS -------------------*/
+
+@media (max-width: 992px) {
+  header .jumbotron {
+    padding: 20px !important;
+  }
+}
