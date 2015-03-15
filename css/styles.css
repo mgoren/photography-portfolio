@@ -140,7 +140,13 @@ section {
   margin-bottom: 50px;
 }
 
-#ext-links {
+#about h1 {
+  display: inline-block;
+  float: right;
+  color: #c3c3c3;
+}
+
+.ext-links {
   display: inline-block;
   font-size: 32px;
   list-style: none;
@@ -148,36 +154,36 @@ section {
   margin-right: 220px;
 }
 
-#ext-links li {
+.ext-links li {
   display: inline-block;
   padding: 7px;
 }
 
-#ext-links a {
+.ext-links a {
   color: #c3c3c3;
 }
 
-#ext-links a:hover {
+.ext-links a:hover {
   color: white;
 }
 
-#project-links {
+.project-links {
   margin-left: 180px;
   list-style: none;
   padding-left: 0;
 }
 
-#project-links li {
+.project-links li {
   display: inline-block;
   padding: 20px;
   text-align: center;
 }
 
-#project-links figcaption {
+.project-links figcaption {
   margin-top: 8px;
 }
 
-#project-links img {
+.project-links img {
   border: 2px solid white;
 }
 
